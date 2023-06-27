@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title>DOM Manupulation</title>
+    </head>
+    <body id="body">
+        <!-- <ul id="element">
+            <li class ='ListItem'>First element</li>
+            <li class ='ListItem'>Second element</li>
+            <li class ='ListItem'>Third element</li>
+        </ul> -->
+        <div id="firstDiv" class="allDivs">First Div</div>
+        <!-- <script>
+            
+            const allDivs=document.getElementsByClassName('allDivs')
+            console.log(allDivs) 
+        </script>
+        <div class="allDivs">Second Div</div>
+        <table>
+            <tr>
+                <td>one</td>
+                <td>two</td>                
+            </tr>
+            <tr>
+                <td>three</td>
+                <td>four</td>
+            </tr>
+        </table> -->
+        <button id="clickBtn" onclick="alert('NamasteWorld')">Click me</button>
+        <script>
+           // ulTag=document.body.children[0]
+           // firstli = ulTag.children[0]
+           // secondli = ulTag.children[1]
+           // console.log(secondli.previousElementSibling.textContent)
+           //const tableTag = document.body.children[1]
+           //console.log(tableTag.tBodies[0].rows[0].cells[1].style="background-color:blue;")
+            //console.log(element.style.backgroundColor='red')
+            //const ulTag = document.getElementById('element')
+            //ulTag.style.backgroundColor='red'
+            //ListItem=document.getElementsByClassName("ListItem")   
+            //console.log(document.getElementsByTagName("table"))
+            //const listitem=document.querySelectorAll('ul > li:last-child')
+            //console.log(listitem)
+
+            //creating and editing node elements
+            //const newDiv=document.createElement('div')
+            //newDiv.textContent="Namaste World "
+            //const newText=document.createTextNode('Namaste World')
+            //newDiv.appendChild(newText) 
+            //body.append(newDiv)
+            //body.prepend(newDiv)
+           // body.before(newDiv)
+           //body.after(newDiv)
+            //firstDiv.replaceWith(newDiv)
+            //firstDiv.remove( )
+
+            //Events
+             function callMe(){
+                alert("Thanks For Watching")
+            }
+            clickBtn.onclick=callMe
+            
+            clickBtn.addEventListener('click',callMe)
+
+
+        </script>
+    </body>
+</html>
